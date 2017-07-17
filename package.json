@@ -1,0 +1,55 @@
+{
+  "name": "front-end-marionette",
+  "version": "0.0.1",
+  "description": "Yanwind front-end built with Marionette",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./webpack.developing.config.js"
+  },
+  "dependencies": {
+    "babel-core": "^5.4.7",
+    "babel-loader": "^5.4.2",
+    "backbone.marionette": "^2.4.2",
+    "backbone.radio": "^1.0.2",
+    "bootstrap": "^3.3.7",
+    "bootstrap-fileinput": "^4.3.4",
+    "bootstrap-sass": "^3.3.5",
+    "bootstrap-sass-loader": "^1.0.9",
+    "css-loader": "^0.10.1",
+    "echarts": "^3.4.0",
+    "expose-loader": "^0.7.3",
+    "express": "^4.12.3",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "file-loader": "^0.8.4",
+    "handlebars": "^3.0.3",
+    "handlebars-loader": "^1.1.4",
+    "http-proxy": "^1.10.1",
+    "imports-loader": "^0.6.4",
+    "jquery": "^1.11.3",
+    "jquery-form": "^3.50.0",
+    "json-loader": "^0.5.2",
+    "lodash-compat": "^3.10.1",
+    "node-sass": "^3.3.2",
+    "nprogress": "^0.2.0",
+    "sass-loader": "^2.0.1",
+    "store": "^1.3.17",
+    "style-loader": "^0.10.2",
+    "url-loader": "^0.5.6",
+    "uuid": "^2.0.1",
+    "webpack": "^1.8.5",
+    "webpack-dev-server": "^1.8.0",
+    "x-editable": "^1.5.1",
+    "ztree": "^3.5.24"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "http://172.16.30.123:81/yanwind/front-end-marionette.git"
+  },
+  "bugs": {
+    "url": "http://172.16.30.123:81/yanwind/front-end-marionette/issues"
+  },
+  "homepage": "http://172.16.30.123:81/yanwind/front-end-marionette"
+}

@@ -1,0 +1,27 @@
+#global-alert {
+  opacity: 0;
+  -webkit-transition: opacity .3s ease-in-out;
+  -o-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
+}
+
+#global-alert.in {
+  opacity: 1;
+}
+
+.global-alert {
+  .alert {
+    top: 45%;
+    width: 300px;
+    margin-left: -150px;
+    z-index: 999999999999999999999999;
+    padding: 30px;
+    position: fixed;
+    left: 50%;
+  }
+}
+.alert-info {
+  border: 1px solid #e8ad96;
+  color: #9e0001;
+  background-color: #ffeae2;
+}

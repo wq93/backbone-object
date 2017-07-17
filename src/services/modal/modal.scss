@@ -1,0 +1,25 @@
+.global-modal .btn {
+  font-size: 12px;
+  line-height: 1.25;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+
+.global-modal .btn-primary {
+  color: white;
+  border-color: #489ddd;
+  background-color: #489ddd;
+}
+
+.global-modal .btn-default {
+  background-color: #fff;
+  border: 1px solid #d0d9de;
+}
+
+.global-modal .modal-body {
+  font-size: 16px;
+}
+
+.global-modal .modal-footer {
+  border-top: 0px;
+}
